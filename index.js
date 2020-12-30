@@ -3,6 +3,7 @@ const app = express()
 const cors = require('cors')
 const helmet = require('helmet')
 const scrapper = require('./scrapper')
+const PORT = process.env.PORT || 3000
 // const config = require("./config.json")
 
 app.use(helmet())
@@ -29,4 +30,4 @@ app.get("/api/", (req, res) => {
     }).catch(err => res.status(500).send(err))
 })
 
-app.listen(3000, () => console.log("Connect to port 3000"))
+app.listen(PORT, () => console.log("Connect to port "+PORT))
