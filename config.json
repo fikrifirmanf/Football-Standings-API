@@ -1,0 +1,27 @@
+{
+    "pl": {
+        "name":"Premier League",
+        "query": "pl",
+        "uniqueName":"premierleague"
+    },
+    "laliga":{
+        "name":"La Liga",
+        "query":"laliga",
+        "uniqueName":"laligafootball"
+    },
+    "seriea":{
+        "name":"Serie A",
+        "query":"seriea",
+        "uniqueName":"serieafootball"
+    },
+    "bundesliga":{
+        "name":"Bundesliga",
+        "query":"bundesliga",
+        "uniqueName":"bundesligafootball"
+    },
+    "ligue1":{
+        "name":"Ligue 1",
+        "query":"ligue1",
+        "uniqueName":"ligue1football"
+    }
+}
