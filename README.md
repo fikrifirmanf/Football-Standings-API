@@ -1,5 +1,7 @@
 # Documentation
 
+This is a Restful API about football standings, created using **NodeJS** using data on the website <https://www.theguardian.com>.
+
 ## Installation
 
 ```
@@ -40,3 +42,5 @@ Ligue1 : ligue1
 ## Data Source
 
 <https://www.theguardian.com/football/tables>
+
+### NOT FOR COMMERCIAL
