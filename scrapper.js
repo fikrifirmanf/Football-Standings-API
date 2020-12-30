@@ -3,7 +3,7 @@ const config = require("./config.json")
 
 
 const scrapeLeague = async (query) => {
-    const browser = await puppeteer.launch({headless: true, args: ['--no-sandbox']})
+    const browser = await puppeteer.launch({headless: true, args: ['--no-sandbox','--disable-setuid-sandbox']})
     const page = await browser.newPage()
     if (query == "pl") {
         await page.goto('https://www.theguardian.com/football/' + config.pl.uniqueName + '/table')
