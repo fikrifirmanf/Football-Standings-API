@@ -20,7 +20,7 @@ app.get("/api/", (req, res) => {
             .then(data => {
                 resolve(data)
             })
-            .catch(err => reject('footballStand scrape fail'))
+            .catch(err => reject('footballStand scrape fail'+err))
     })
     // let queryData = req.query.league
     Promise.all([footballStand]).then(data => {
