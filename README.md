@@ -36,7 +36,6 @@ Premier League : pl
 La Liga : laliga
 Serie A : seriea
 Bundesliga : bundesliga
-Ligue1 : ligue1
 ```
 
 ## Data Source

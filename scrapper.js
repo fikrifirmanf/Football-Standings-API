@@ -5,25 +5,25 @@ const config = require("./config.json")
 const scrapeLeague = async (query) => {
     const chromeOptions = {
         headless: true,
-        defaultViewport: null,
-        args: [
-            "--incognito",
-            "--no-sandbox",
-            "--single-process",
-            "--no-zygote"
-        ],
+        // defaultViewport: null,
+        // args: [
+        //     "--incognito",
+        //     "--no-sandbox",
+        //     "--single-process",
+        //     "--no-zygote"
+        // ],
     };
     const browser = await puppeteer.launch(chromeOptions)
     const page = await browser.newPage()
     if (query == "pl") {
         await page.goto('https://www.theguardian.com/football/' + config.pl.uniqueName + '/table')
-    } else if (query == "laliga") {
+    } if (query == "laliga") {
         await page.goto('https://www.theguardian.com/football/' + config.laliga.uniqueName + '/table')
-    } else if (query == "seriea") {
+    } if (query == "seriea") {
         await page.goto('https://www.theguardian.com/football/' + config.seriea.uniqueName + '/table')
-    } else if (query == "bundesliga") {
+    } if (query == "bundesliga") {
         await page.goto('https://www.theguardian.com/football/' + config.bundesliga.uniqueName + '/table')
-    } else if (query == "ligue1") {
+    } if (query == "ligue1") {
         await page.goto('https://www.theguardian.com/football/' + config.ligue1.uniqueName + '/table')
     }
 
