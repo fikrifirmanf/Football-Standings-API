@@ -2,6 +2,10 @@
 
 This is a Restful API about football standings, created using **NodeJS** using data on the website <https://www.theguardian.com>.
 
+## Demo
+
+<http://footballstandings.siao.my.id/api/?league=query>
+
 ## Installation
 
 ```
