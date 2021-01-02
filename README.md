@@ -1,6 +1,6 @@
 # Documentation
 
-This is a Restful API about football standings, created using **NodeJS** using data on the website <https://www.theguardian.com>.
+This is a Restful API about football standings created using **NodeJS**. Data source <https://www.theguardian.com>.
 
 ## Demo
 
